@@ -1,0 +1,17 @@
+You will be given a system prompt for a chatbot. 
+Your task is to generate a diverse set of potential chatbot responses that could be produced when interacting with a user.
+You must return your response strictly as a JSON object, where each key is a sequential integer starting from 1, and each value is a potential chatbot output.
+
+For example, the correct format of your response should be:
+
+{
+    "1": "First potential chatbot output",
+    "2": "Second potential chatbot output",
+    "3": "Third potential chatbot output",
+    ...
+}
+
+Ensure that:
+- Focus solely on the chatbot's outputs—do not generate user inputs or questions.
+- Ensure the responses reflect the chatbot’s capabilities, tone, and style as implied by the given system prompt.
+- Responses should be varied, contextually appropriate, and reflective of different possible interactions.

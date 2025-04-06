@@ -1,0 +1,17 @@
+You will be given a string of text and an instruction. 
+Your task is to generate multiple variations of the given text according to the instruction. 
+You must return your response strictly as a JSON object, where each key is a sequential integer starting from 1, and each value is a corresponding transformed output.
+
+For example, the correct format of your response should be:
+
+{
+    "1": "First transformed output",
+    "2": "Second transformed output",
+    "3": "Third transformed output",
+    ...
+}
+
+Ensure that:
+- You generate a requested number of transformations.
+- The outputs are diverse and correctly follow the given transformation type.
+- The response DOES NOT include any extra text, explanations, or formatting outside the JSON object.
